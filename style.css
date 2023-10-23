@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal-frame {
+  width: 713px;
+  height: 175px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #cd8aff;
+}
+
+.top-element {
+  width: 550px;
+  height: 297px;
+  flex-shrink: 0;
+  background: white;
+  border-radius: 24px;
+  position: absolute;
+  left: 485px;
+  top: 210px;
+  box-shadow: 0px 24px 44px -20px rgba(194, 171, 229, 0.8);
+}
+
+.text {
+  color: var(--38196-b, #38196b);
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 72px;
+  top: 72px;
+}
+
+.elips {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #F4EDFF;
+  position: absolute;
+  left: 454px;
+  top: 32px;
+}
+
+.frame {
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 17px;
+  background: linear-gradient(135deg, #9ab0ff 0%, #eb73ff 100%);
+  box-shadow: 0px 4px 4px 0px rgba(193, 107, 236, 0.24);
+  position: absolute;
+  left: 72px;
+  top: 132px;
+}
+
+.web {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 138px;
+  top: 147.5px;
+}
+
+.block {
+  display: flex;
+  padding: 12px 24px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ffb2b2;
+  position: absolute;
+  left: 308px;
+  top: 200px;
+  color: #ff1212;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.allow {
+  display: flex;
+  padding: 12px 24px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #9eebaf;
+  position: absolute;
+  left: 421px;
+  top: 200px;
+  color: #0abe31;
+  font-size: 18px;
+  font-weight: 500;
+}
